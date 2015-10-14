@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    font-family:monospace;
+}
+/*will apply to all components of the body*/
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+    background-color: dimgrey;
+}
+
+nav h1 {
+    color:powderblue;
+}
+
+#page-title {
+    padding: 15px;
+}
+/*HASH means you are referencing an id*/
+
+.half-width {
+    width: 49%;
+    display: inline-block;
+}
+
+/*dot means you are refering to a class*/
